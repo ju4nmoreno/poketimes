@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <span className="center">the end of the f***ing world</span>
+        <h2 className="center">The End of The <strong>F***ing World</strong></h2>
         <NavBar className="center" />
         <Switch className="center">
           <Route exact path='/' component={Home} />
